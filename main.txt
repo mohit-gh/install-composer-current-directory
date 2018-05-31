@@ -4,3 +4,5 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
 composer require 'drupal/commerce:^2.5'
+
+chown www-data sites/default
